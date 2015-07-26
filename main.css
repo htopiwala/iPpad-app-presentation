@@ -1,0 +1,128 @@
+body{
+	background: white;
+	font-family: Helvetica;
+}
+
+/* Font pack Starts here */
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?8lr8fz');
+	src:url('fonts/icomoon.eot?#iefix8lr8fz') format('embedded-opentype'),
+		url('fonts/icomoon.woff?8lr8fz') format('woff'),
+		url('fonts/icomoon.ttf?8lr8fz') format('truetype'),
+		url('fonts/icomoon.svg?8lr8fz#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-headphones:before {
+	content: "\e600";
+}
+.icon-connection:before {
+	content: "\e601";
+}
+.icon-keyboard:before {
+	content: "\e602";
+}
+.icon-radio-unchecked:before {
+	content: "\e603";
+}
+.icon-flickr:before {
+	content: "\e604";
+}
+.icon-flickr2:before {
+	content: "\e605";
+}
+.icon-signal:before {
+	content: "\e606";
+}
+.icon-lock:before {
+	content: "\e607";
+}
+.icon-history:before {
+	content: "\e608";
+}
+.icon-record:before {
+	content: "\e609";
+}
+.icon-danielbruce:before {
+	content: "\e60a";
+}
+
+/* Font Pack Ends Here */
+
+#iphone-body{
+	height: 700px;
+	width: 500px;
+	background: transparent;
+	border-radius: 30px;
+	border: 5px solid grey;
+	text-align: center;
+	margin:20px auto;
+}
+
+#iphone-body-mic{
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+	border: 3px solid grey;
+	margin: 30px auto;
+}
+
+#iphone-body-screen{
+	height: 550px;
+	width: 460px;
+	background: transparent;
+	border: 3px solid grey;
+	margin: 10px auto;
+}
+#iphone-details{
+	height: 30px;
+	width: 460px;
+}
+#iphone-body-home-button{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	border: 2px solid grey;
+	margin: 2px auto;
+
+}
+
+#iphone-body-home-button-effect{
+	height: 20px;
+	width: 20px;
+	margin: 12px auto;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.app{
+	height: 800px;
+	width: 800px;
+	background: #f0f0f0;
+	border-radius: 10%;
+	-webkit-box-shadow: 0 28px 36px -6px #505050;
+	   -moz-box-shadow: 0 28px 36px -6px #505050;
+	        box-shadow: 0 28px 36px -6px #505050;
+}
+
+.app-title{
+	height: 200px;
+	width: 800px;
+
+}
